@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OhceKata", "OhceKata.csproj", "{727FA40D-94D1-4A2C-9246-28304F8A4319}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OhceLibrary", "OhceLibrary\OhceLibrary.csproj", "{97EB4639-0A29-4B8D-AB06-51A90D857084}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ohce", "Ohce\Ohce.csproj", "{82777015-371F-4721-AF70-94A140E5D97A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{727FA40D-94D1-4A2C-9246-28304F8A4319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{727FA40D-94D1-4A2C-9246-28304F8A4319}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{727FA40D-94D1-4A2C-9246-28304F8A4319}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{727FA40D-94D1-4A2C-9246-28304F8A4319}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97EB4639-0A29-4B8D-AB06-51A90D857084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97EB4639-0A29-4B8D-AB06-51A90D857084}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97EB4639-0A29-4B8D-AB06-51A90D857084}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97EB4639-0A29-4B8D-AB06-51A90D857084}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82777015-371F-4721-AF70-94A140E5D97A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82777015-371F-4721-AF70-94A140E5D97A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82777015-371F-4721-AF70-94A140E5D97A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82777015-371F-4721-AF70-94A140E5D97A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
